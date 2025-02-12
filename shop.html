@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myweb.css">
+    <title>التسوق - متجر الزهور</title>
+    <style>
+        /* إضافات للتنسيق الخاص بالصفحة */
+        body {
+            background-image: url('Green and Beige Simple Background Document A4.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #8e8855;
+            font-size: 40px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #010406;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover {
+            color: #7d7b72;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .product {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 10px;
+        }
+
+        .product p {
+            color: #8e8855;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .product button {
+            background-color: #7d7b72;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .product button:hover {
+            background-color: #54543e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #010406;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مرحباً بك في متجر الزهور</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="C:\Users\lama3\OneDrive\Desktop\shop\c18d3532-0be6-43de-9129-496aa379315a.jpg" alt="زهرة 1">
+            <p>زهرة رائعة</p>
+            <button>إضافة إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\lama3\OneDrive\Desktop\shop\4bee47a3-5555-41f9-a6a4-211979a9d914.jpg" alt="زهرة 2">
+            <p>زهرة مميزة</p>
+            <button>إضافة إلى السلة</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\lama3\OneDrive\Desktop\shop\0a783e7f-77ec-42f2-a620-e16dc968ce76.jpg" alt="زهرة 3">
+            <p>زهرة مدهشة</p>
+            <button>إضافة إلى السلة</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 متجر الزهور. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
