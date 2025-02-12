@@ -66,13 +66,3 @@ td {
 .shop-button:hover {
     background-color: #54543e;
 }
-
-body {
-     background-image: url('https://github.com/lama1040/myweb3/blob/main/Black%20and%20Beige%20Elegant%20Simple%20Flower%20Circle%20Logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
